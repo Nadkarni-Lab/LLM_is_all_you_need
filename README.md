@@ -44,6 +44,7 @@ Setting up the environment and installing the libraries correctly may become cha
 - **easy yet difficult to imitate**:
 Using LLMs is "easy yet difficult to imitate." While you may think that using these tools is super easy and adaptable for any use case, you should have a testing stage to find the best approach and parameters for your use case. So, don't overlook the impact of LLM setup and design to do your task. You should probably hard code your own solution, while using examples can help you to boost your speed. 
 
+------
 # Reousrces for learning
 ## Start
 I really like learning projects by doing them. My suggestion is to put 1 week for learning (if you know Python) and then dive into a project. But people learn differently and they should consider their learning style, so here are resources you can use: 

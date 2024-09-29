@@ -56,12 +56,12 @@ Using LLMs is "easy yet difficult to imitate." While you may think that using th
 ### Start
 I really like learning projects by doing them. My suggestion is to put 1 week for learning (if you know Python) and then dive into a project. But people learn differently and they should consider their learning style, so here are resources you can use: 
 - If you want to first learn and then do projects:
- - & You like youtube: 
-    - YT playlist covering all aspects, from beginner-level to advanced: [Generative AI by Washington Prof](https://www.youtube.com/playlist?list=PLjy4p-07OYzui0nVZzMgoLBeXjG9Oy3hi)
-  - & you like books:
-    - A book covering all aspects of LLMs (really a great book, the second book I tried to read cover-to-cover in my life): [Hands-on Large Language Models by J. Alammar](https://www.amazon.co.uk/Hands-Large-Language-Models-Understanding/dp/1098150961/ref=asc_df_1098150961/?tag=googshopuk-21&linkCode=df0&hvadid=696285193871&hvpos=&hvnetw=g&hvrand=1585991372394813751&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9222618&hvtargid=pla-2281435176658&psc=1&mcid=eb08b758a9b13e57a4825f7bcdbd46b4&th=1&psc=1&hvocijid=1585991372394813751-1098150961-&hvexpln=74&gad_source=1)
+   - & You like youtube: 
+      - YT playlist covering all aspects, from beginner-level to advanced: [Generative AI by Washington Prof](https://www.youtube.com/playlist?list=PLjy4p-07OYzui0nVZzMgoLBeXjG9Oy3hi)
+    - & you like books:
+      - A book covering all aspects of LLMs (really a great book, the second book I tried to read cover-to-cover in my life): [Hands-on Large Language Models by J. Alammar](https://www.amazon.co.uk/Hands-Large-Language-Models-Understanding/dp/1098150961/ref=asc_df_1098150961/?tag=googshopuk-21&linkCode=df0&hvadid=696285193871&hvpos=&hvnetw=g&hvrand=1585991372394813751&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9222618&hvtargid=pla-2281435176658&psc=1&mcid=eb08b758a9b13e57a4825f7bcdbd46b4&th=1&psc=1&hvocijid=1585991372394813751-1098150961-&hvexpln=74&gad_source=1)
     - & like gamification:
-      - Datacamp: [Theory](https://www.datacamp.com/courses/large-language-models-llms-concepts) + [Intor to LLMs Python](https://www.datacamp.com/courses/introduction-to-llms-in-python) + [Langchain and RAG](https://www.datacamp.com/courses/developing-llm-applications-with-langchain)
+        - Datacamp: [Theory](https://www.datacamp.com/courses/large-language-models-llms-concepts) + [Intor to LLMs Python](https://www.datacamp.com/courses/introduction-to-llms-in-python) + [Langchain and RAG](https://www.datacamp.com/courses/developing-llm-applications-with-langchain)
 
 - If you like to learn fast and do projects:
   - [YT playlist with fast introduction and projects](https://www.youtube.com/playlist?list=PLqZXAkvF1bPNQER9mLmDbntNfSpzdDIU5)
@@ -69,10 +69,17 @@ I really like learning projects by doing them. My suggestion is to put 1 week fo
 ### Advanced
 If you finished your first project and want to go deeper:
 - [Learn the fundamentals of generative AI for real-world applications by deeplearning.io](https://www.deeplearning.ai/courses/generative-ai-with-llms/)
+- [Building systems with LLMs](https://www.coursera.org/projects/building-systems-with-the-chatgpt-api-project)
 
 
 ## Other stuff
-Other stuff that are good:
-Extraction: 
-- [Extraction wiht Pydantic: Using LangChain Output Parsers to get what you want out of LLMs](https://www.youtube.com/watch?v=UVn2NroKQCw&t=853s)
+Other good stuff:
+- [Extraction with Pydantic: Using LangChain Output Parsers to get what you want out of LLMs](https://www.youtube.com/watch?v=UVn2NroKQCw&t=853s)
 - [Step-by-step RAG project: chat with your PDF](https://www.youtube.com/watch?v=dXxQ0LR-3Hg)
+- [Building Production-Ready Apps with Large Language Models ](https://www.coursera.org/learn/building-production-ready-apps-with-large-language-models)
+
+## Best papers you should read
+- Holistic Evaluation of Large Language Models
+
+## Best sources you should visit
+- [Github repo: LLM-course](https://github.com/mlabonne/llm-course)

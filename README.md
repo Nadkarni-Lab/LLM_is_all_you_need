@@ -1,7 +1,7 @@
 # LLM is all you need
 Code for doing generation, extraction, prediction, retrieval, and evaluation tasks using LLMs. You can also find resources to start learning LLMs and use these codes as training material. 
 
-## Introduction and aim 
+### Introduction and aim 
 
 The project's code is structured considering how you may want to use LLMs, instead of nesting codes for each project next to each other. This will help you to find the code you want faster. I also provided some examples that you can play with to test the code. 
 
@@ -37,7 +37,7 @@ Before pushing the code into this repo, I tried my best to clean it, make it mod
 - **GI-Copilot**: A chatbot that answers your questions using validated sources (guidelines published by five GI associations). This is a RAG-based project.
 - **EXCT**: Extraction of information from MR enterography report and then use them for calculation of a severity score. This is an extraction project.
 
-## Consideration for use 
+### Consideration for use 
 
 - **My context**:
 I am using a dual boot (Linux and) Windows-based laptop with RTX3080Ti (16GB graphic memory) and Core-i9 (12900HX). I am using Visual Studio Code, notebooks, and my local processor for anything I do (no Colab or Kaggle). 
@@ -53,7 +53,7 @@ Using LLMs is "easy yet difficult to imitate." While you may think that using th
 
 ------
 # Reousrces for learning
-## Start
+### Start
 I really like learning projects by doing them. My suggestion is to put 1 week for learning (if you know Python) and then dive into a project. But people learn differently and they should consider their learning style, so here are resources you can use: 
 - If you want to first learn and then do projects:
  - & You like youtube: 
@@ -66,12 +66,12 @@ I really like learning projects by doing them. My suggestion is to put 1 week fo
 - If you like to learn fast and do projects:
   - [YT playlist with fast introduction and projects](https://www.youtube.com/playlist?list=PLqZXAkvF1bPNQER9mLmDbntNfSpzdDIU5)
  
-# Advanced
+### Advanced
 If you finished your first project and want to go deeper:
 - [Learn the fundamentals of generative AI for real-world applications by deeplearning.io](https://www.deeplearning.ai/courses/generative-ai-with-llms/)
 
 
-# Other stuff
+## Other stuff
 Other stuff that are good:
 Extraction: 
 - [Extraction wiht Pydantic: Using LangChain Output Parsers to get what you want out of LLMs](https://www.youtube.com/watch?v=UVn2NroKQCw&t=853s)

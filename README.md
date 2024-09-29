@@ -5,8 +5,15 @@ Code for doing generation, extraction, prediction, retrieval, and evaluation tas
 
 The project's code is structured considering how you may want to use LLMs, instead of nesting codes for each project next to each other. This will help you to find the code you want faster. I also provided some examples that you can play with to test the code. 
 
-- Generation
-  - ...loading
+- Generation   _...loading_
+  - OpenAI API
+  - Claude API
+  - LM studio server (local models, the painless way)
+  - Ollama (local models, the hard way)
+  - Groq (cloud server for running popular open-source LLMs)
+  - Poe (Poe is UI to play with many LLMs without hosting them locally. You can play a trick to get the answers automatically)
+  - HuggingFace API (cloud server for running almost all open-source LLMs)
+
 
 - Extraction
   - ...loading

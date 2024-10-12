@@ -1,7 +1,10 @@
 # REALLY GOOD STUFF for LLMs
 
+Suggested pathway
+![suggested pathway](https://res.cloudinary.com/dlqbikbis/image/upload/v1728729376/Week1_izy02a.png)
+
 ```
-Color Guide
+Colour Guide
 🔵Week 1
 🟣Week 2
 🟠Week 3
@@ -56,11 +59,11 @@ Then you can go to each section, as you need, and do something on your PC. Nothi
 <details>
 <summary>In-context learning (fine-tune)</summary>
 
-⚫ [Llama3.2 + Ollama](https://youtu.be/YZW3pkIR-YE?si=1YkCskOoy5LsU-n4)
+🟠 [Llama3.2 + Ollama](https://youtu.be/YZW3pkIR-YE?si=1YkCskOoy5LsU-n4)
     
 ⚫ [Llama3](https://youtu.be/aQmoog_s8HE?si=H1VpwBKhfZ5o90qt)
     
-⚫ [BERT](https://www.youtube.com/watch?v=9he4XKqqzvE)
+🟠 [BERT](https://www.youtube.com/watch?v=9he4XKqqzvE)
 
     
 </details>
@@ -89,15 +92,15 @@ Then you can go to each section, as you need, and do something on your PC. Nothi
 <details>
 <summary>Advanced - musT </summary>
 
-⚫ [Using Huggingface Transformer library  ](https://youtu.be/ntz160EnWIc?si=ipYAciAhtjDcWfXr) 
+🟠 [Using Huggingface Transformer and pre-trained modelslibrary](https://youtu.be/ntz160EnWIc?si=ipYAciAhtjDcWfXr) 
 
-⚫ [Groq API](https://youtu.be/S53BanCP14c?si=6hOoVjc21F7UOZff)
+🟠 [Groq API](https://youtu.be/S53BanCP14c?si=6hOoVjc21F7UOZff)
 
-⚫ [Advanced LLM concepts](https://youtube.com/playlist?list=PL5dTjWUk_cPZxyZuZdl8S0g4tbh-GL2Ro&si=O0fkdY0XYN6m4Zeb)
+🟠 [Advanced LLM concepts](https://youtube.com/playlist?list=PL5dTjWUk_cPZxyZuZdl8S0g4tbh-GL2Ro&si=O0fkdY0XYN6m4Zeb)
 
-⚫ [Technical Intro to LLMs](https://www.youtube.com/watch?v=zjkBMFhNj_g)
+🟠 [Technical Intro to LLMs](https://www.youtube.com/watch?v=zjkBMFhNj_g)
 
-⚫ [Creating knowledge graphs](https://youtu.be/Fm68I-phaiY?si=XcCkspPTyDQkY3P1)
+🔴 [Creating knowledge graphs](https://youtu.be/Fm68I-phaiY?si=XcCkspPTyDQkY3P1)
 
 </details>
 
@@ -114,8 +117,6 @@ Then you can go to each section, as you need, and do something on your PC. Nothi
 If you finished your first project and want to go deeper:
 
 ⚫ [Learn the fundamentals of generative AI for real-world applications by deeplearning.io](https://www.deeplearning.ai/courses/generative-ai-with-llms/)
-
-⚫ [Building systems with LLMs](https://www.coursera.org/projects/building-systems-with-the-chatgpt-api-project)
 
 ⚫ [Building systems with LLMs](https://www.coursera.org/projects/building-systems-with-the-chatgpt-api-project)
 

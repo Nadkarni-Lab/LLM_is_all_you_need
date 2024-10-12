@@ -1,22 +1,34 @@
 # REALLY GOOD STUFF for LLMs
 
+```
+Color Guide
+🔵Week 1
+🟣Week 2
+🟠Week 3
+🔴Must-see (advanced)
+⚫optional, for specific use
+```
+
+
 <details>
 <summary>Start - concept</summary>
 
-⚫ [Beginner intro to LLMs](https://youtu.be/osKyvYJ3PRM?si=5eBqlcaedRbiCKUi)
+🔵 [Beginner intro to LLMs](https://youtu.be/osKyvYJ3PRM?si=5eBqlcaedRbiCKUi)
 
 ⚫ [Fun video about the mathematics happening behind the scenes (I promise it's fun)](https://youtu.be/wjZofJX0v4M?si=dKjW4dZ-Q2D0xb7k)
+
+🟣 [RAG Explained](https://youtu.be/qppV3n3YlF8?si=iTdBct7g5DhIzQT6)
 
 </details>
 
 <details>
 <summary>Start - code</summary>
     
-⚫ [Langchain playlist - fast](https://www.youtube.com/playlist?list=PL4HikwTaYE0GEs7lvlYJQcvKhq0QZGRVn)
+🔵 [Langchain playlist - fast](https://www.youtube.com/playlist?list=PL4HikwTaYE0GEs7lvlYJQcvKhq0QZGRVn)
 
 OR
 
-⚫ [Langchain - master class](https://youtu.be/yF9kGESAi3M?si=RI84A5D4pwFY-Em2)
+🔵 [Langchain - master class](https://youtu.be/yF9kGESAi3M?si=RI84A5D4pwFY-Em2)
 
 Then you can go to each section, as you need, and do something on your PC. Nothing is comparable to getting something running on your own PC (either by API or local LLMs).
 </details>
@@ -24,7 +36,7 @@ Then you can go to each section, as you need, and do something on your PC. Nothi
 <details>
 <summary>Structured Output</summary>
     
-⚫ [w Pydantic](https://youtu.be/UVn2NroKQCw?si=fJArCi6DxE6bY5FR)
+🔵 [Structured Output w Pydantic](https://youtu.be/UVn2NroKQCw?si=fJArCi6DxE6bY5FR)
 
 ⚫ [Optional: JSONformer](https://youtu.be/hpMCvfIIM_A?si=cZuYfZk7Y87Ww4Qm)
 
@@ -33,9 +45,9 @@ Then you can go to each section, as you need, and do something on your PC. Nothi
 <details>
 <summary>evaluation</summary>
     
-⚫ [Deep dive evaluation](https://www.youtube.com/watch?v=iQl03pQlYWY&list=PLkm_s7m1D-JjHBuIGOJQTnAlLNRM-0Dh0&index=1)
+🟣 [Deep dive evaluation](https://www.youtube.com/watch?v=iQl03pQlYWY&list=PLkm_s7m1D-JjHBuIGOJQTnAlLNRM-0Dh0&index=1)
 
-⚫ [QA evaluation](https://youtu.be/8qRGP2hhnSc?si=1WmJK8Ii2bA-zZXG)
+🔵 [QA evaluation](https://youtu.be/8qRGP2hhnSc?si=1WmJK8Ii2bA-zZXG)
 
 ⚫ [Langsmith](https://youtu.be/tFXm5ijih98?si=Q7iqiMHChrOmmL4t)
 
@@ -58,7 +70,7 @@ Then you can go to each section, as you need, and do something on your PC. Nothi
 
 ⚫ [All about RAG (must see)](https://youtu.be/sVcwVQRHIc8?si=HECDoO64-eSOB_pK)
 
-⚫ [Multimodal RAG + Langchain + GPT4V](https://youtu.be/-77EvEjuZJY?si=s7QBP70iN8UWPhS0)
+🟣 [Multimodal RAG + Langchain + GPT4V](https://youtu.be/-77EvEjuZJY?si=s7QBP70iN8UWPhS0)
 
 ⚫ [Create your RAG-bot with UI (streamlit)](https://www.youtube.com/watch?v=dXxQ0LR-3Hg)
     
@@ -67,9 +79,9 @@ Then you can go to each section, as you need, and do something on your PC. Nothi
 <details>
 <summary>Running LLMs locally </summary>
 
-⚫ [LM studio basic](https://youtu.be/yBI1nPep72Q?si=xgwqcz-r_Qp6IBpF)  ++ [Python integration](https://youtu.be/IgcBuXFE6QE?si=GIEnnKt1Q0MMslrz) --> recommended for beginners
+🔵 [LM studio basic](https://youtu.be/yBI1nPep72Q?si=xgwqcz-r_Qp6IBpF)  ++ [Python integration](https://youtu.be/IgcBuXFE6QE?si=GIEnnKt1Q0MMslrz) --> recommended for beginners
 
-⚫ [Ollama basics](https://youtu.be/Ox8hhpgrUi0?si=k0dPfpGnEi8qlDxc) ++ [Python integration](https://youtu.be/d0o89z134CQ?si=yfy0Q7bitfCtn88q) --> Recommended for iterative runs
+🟣 [Ollama basics](https://youtu.be/Ox8hhpgrUi0?si=k0dPfpGnEi8qlDxc) ++ [Python integration](https://youtu.be/d0o89z134CQ?si=yfy0Q7bitfCtn88q) --> Recommended for iterative runs
 
 </details>
 
@@ -108,6 +120,28 @@ If you finished your first project and want to go deeper:
 ⚫ [Building systems with LLMs](https://www.coursera.org/projects/building-systems-with-the-chatgpt-api-project)
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <details>
 <summary>Alternative to this pathway</summary>

@@ -27,6 +27,9 @@ The project's code is structured considering how you may want to use LLMs, inste
  
 - Evaluation (LLM-as-a-judge)
   - ...loading
+ 
+- Multimodal:
+  - [TiLense](https://github.com/Sdamirsa/TiLense-4BlackBox-VLM): OpenAI-Vision + Prediction (Function Call) + Tile-based Masking --> An explainability module (tile importance for prediction task) for black-box vision language models 
 
 Before pushing the code into this repo, I tried my best to clean it, make it modular, and add code guides to make it reusable. The codes in this repo are part of my projects named:
 

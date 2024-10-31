@@ -17,7 +17,7 @@ The project's code is structured considering how you may want to use LLMs, inste
 
 
 - Extraction
-  - ...loading
+  - [EXCT_GIANT](https://github.com/Nadkarni-Lab/GIANT/tree/main/EXCT_GIANT): Langchain + asyncOpenAI + Pydantic --> Multi-level dictionary with painless error handling for parser 
   
 - Prediction
   - ...loading

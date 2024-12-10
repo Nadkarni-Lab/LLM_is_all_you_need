@@ -61,6 +61,11 @@ async def firework_async_generate(
         logger.error("Please check your api key. It seems that it has less than 4 charectars, which is unusual.")
         raise ValueError("Please check your api key. You should save it in .env file and load it here.")
     
+    if model.startswith("gpt-4o"): #this means that we can use STRUCTURED OUTPUT (i.e. directly providing pydantic)
+        Just_JSON = False
+    else:
+        Just_JSON = True
+    
     try:
         # Initialize client
         client = openai.OpenAI(
@@ -123,20 +128,32 @@ async def firework_async_generate(
         if seed:
             params["seed"] = seed
         if pydantic_model:
-            params["response_format"] = {
-                "type": "json_object",
-                "schema": pydantic_model.model_json_schema()
-            }
+            if Just_JSON:
+                params["response_format"] = {
+                    "type": "json_object",
+                    "schema": pydantic_model.model_json_schema()
+                }
+            else:
+                params["response_format"] = pydantic_model
+                
         if model_kwargs:
             params.update(model_kwargs)
             
         # Process single request
         inference_start = time.time()
-        response = await asyncio.get_event_loop().run_in_executor(
-            ThreadPoolExecutor(),
-            lambda: client.chat.completions.create(**params)
-        )
-        inference_time = time.time() - inference_start
+        if pydantic_model and not Just_JSON: 
+            response = await asyncio.get_event_loop().run_in_executor(
+                ThreadPoolExecutor(),
+                lambda: client.beta.chat.completions.parse(**params)
+            )
+            inference_time = time.time() - inference_start
+       
+        else: 
+            response = await asyncio.get_event_loop().run_in_executor(
+                ThreadPoolExecutor(),
+                lambda: client.chat.completions.create(**params)
+            )
+            inference_time = time.time() - inference_start 
         
         # Track output parameters
         output_params = {

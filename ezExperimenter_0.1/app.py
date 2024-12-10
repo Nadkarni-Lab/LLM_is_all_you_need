@@ -585,10 +585,13 @@ if generate_code_button:
     code_lines.append("from mytest.mytest import test_llm_functions")
     code_lines.append("")
     code_lines.append("# validate api")
-    code_lines.append(f"api_key_var = {json.dumps(env_var_name)}")
-    code_lines.append("api_key = os.getenv(api_key_var)")
-    code_lines.append("if api_key is None:")
-    code_lines.append("    raise ValueError(\"Please check your api key. You should save it in .env file and load it here.\")")
+    if env_var_name =="ollama":
+        code_lines.append("api_key = \"ollama\"")
+    else: 
+        code_lines.append(f"api_key_var = {json.dumps(env_var_name)}")
+        code_lines.append("api_key = os.getenv(api_key_var)")
+        code_lines.append("if api_key is None:")
+        code_lines.append("    raise ValueError(\"Please check your api key. You should save it in .env file and load it here.\")")
     
     code_lines.append("##########################")
     code_lines.append("###    ezExperiments   ###")
@@ -614,6 +617,8 @@ if generate_code_button:
 
         code_lines.append("    {")
         for k, v in exp_dict.items():
+            if k == 'pydantic_model':
+                continue  # Skip this key
             if v is not None:
                 code_lines.append(f"        '{k}': {json.dumps(v)},")
             else:

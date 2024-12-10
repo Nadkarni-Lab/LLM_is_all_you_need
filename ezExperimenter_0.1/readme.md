@@ -4,10 +4,11 @@ This is an all-in-one module for running LLM/VLM for generation, with or without
 
 
 # Setup
-## 0- Python and VS code
-    [Download and install python](https://www.python.org/downloads/)
-    [Donwload and install VS code](https://code.visualstudio.com/download)
-    [Download the ]
+## 0- Python, VS code, and ezExperimenter code
+- [Download and install python](https://www.python.org/downloads/)
+- [Donwload and install VS code](https://code.visualstudio.com/download)
+- Download this repo (go to [this link](https://download-directory.github.io/) and enter the url)
+- Unzip and start the folder in VS code
 
 ## 1- Create virtual enviroment
     python -m venv venv

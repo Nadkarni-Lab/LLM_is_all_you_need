@@ -1,24 +1,25 @@
 # Description
 
-This is an all in one module for running LLM/VLM for generartion (Q&D) with or without structured output (Pydantic JSON).
+This is an all-in-one module for running LLM/VLM for generation, with or without structured output (Pydantic JSON).
 
 
 # Setup
-0- Go to the nadkarni_VLLM/v20241120
-    cd nadkarni_VLLM\v20241120
+## 0- Python and VS code
+    [Download and install python](https://www.python.org/downloads/)
+    [Donwload and install VS code](https://code.visualstudio.com/download)
+    [Download the ]
 
 ## 1- Create virtual enviroment
-    python -m venv nadkarni_VLLM_kernel
+    python -m venv venv
 
 ## 2- Activate your enviroment
-    nadkarni_VLLM_kernel\Scripts\activate
+    venv\Scripts\activate
 
 ## 3- install packages and libraries
     pip install -r requirements.txt
 
 ## 4- Get your api and base url. What is supported?
 Here's the improved version of your guide with refined wording for clarity and consistency:
-
 
 ### 4. API and Model Deployment Guide
 
@@ -66,15 +67,15 @@ Here's the improved version of your guide with refined wording for clarity and c
 - To integrate, define the platform-specific `base_url` and `api` parameters in your code.
 
 
-
 ## 5- Add your API to the .env file (you will read it from os.getenv, to have a safe use of API)
 
 ## 6- Then run the app
-    streamlit run easy_UI/app.py
+    streamlit run app.py
 
 ## 7- Use the app to get your code
-The app will guide you step by step. You need to store all of your prompts (model inpits) and images (full patht to images, sperated by comma) inside an excel file so you can read from there, create the experiment inputs, and outputs in the desired destination folder
+The app will guide you step by step. You need to store all of your prompts (model inputs) and images (full path to images, separated by a comma) inside an Excel file so you can read from there, and create the experiment inputs and outputs in the desired destination folder.
 
+# 8- run your code in notebook (Use.ipynb)
 
 ### To do:
 

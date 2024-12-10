@@ -3,6 +3,13 @@
 This is an all-in-one module for running LLM/VLM for generation, with or without structured output (Pydantic JSON).
 
 
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
+
+🟩🟩 [Step-by-step instruction](https://youtu.be/NXbvN1i3x-g) 🟩🟩
+
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
+
+
 # Setup
 ## 0- Python, VS code, and ezExperimenter code
 - [Download and install python](https://www.python.org/downloads/)

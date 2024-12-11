@@ -3,19 +3,8 @@
 
 pandas==2.2.3
 openpyxl==3.1.5
-tqdm
-ipywidgets
-
-
-pydantic==2.10.3
-pydantic_core==2.27.1
-nest-asyncio==1.6.0
 numpy==2.0.2
-
-openai==1.57.1
-
 streamlit==1.40.2
-
 
 altair==5.5.0
 annotated-types==0.7.0
@@ -58,7 +47,6 @@ MarkupSafe==3.0.2
 matplotlib-inline==0.1.7
 mdurl==0.1.2
 narwhals==1.16.0
-
 packaging==24.2
 parso==0.8.4
 pillow==11.0.0
@@ -85,7 +73,6 @@ stack-data==0.6.3
 tenacity==9.0.0
 toml==0.10.2
 tornado==6.4.2
-tqdm==4.67.1
 traitlets==5.14.3
 typing_extensions==4.12.2
 tzdata==2024.2
